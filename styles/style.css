@@ -1,0 +1,28 @@
+#flexbox {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-family: fantasy;
+}
+
+#flexbox > div {
+    padding: 10px;
+    border: 2px solid red;
+    margin: 10px 25px 15px;
+    font-size: 25px;
+}
+
+#flexbox > #road:hover {
+    background-image: url(../img/chicken.gif);
+    background-size: 100px;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 10px;
+}
